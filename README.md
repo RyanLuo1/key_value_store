@@ -3,6 +3,9 @@
 ## Project Overview
 This is an implementation of a concurrent key-value (KV) store using a client-server architecture. Both client and server are multi-threaded processes that communicate through a shared memory region. The system uses a ring buffer for inter-process communication and a thread-safe hash table to store key-value pairs.
 
+## System Architecture
+![Key-Value Store Architecture](Key_value_store.png)
+
 ## Components
 
 ### Ring Buffer
